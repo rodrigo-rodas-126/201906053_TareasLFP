@@ -1,0 +1,36 @@
+
+-Diferencias Paradigmas:
+
+Los lenguajes imperativo son aquellos donde se le dan instrucciones paso a paso para
+ejecutar una determinada tarea, esto optimiza la realizacion de tareas ya que el lenguaje
+cambia de estados, esto puede llegar a complicar la compresion de este lenguaje. Mientras
+que los lenguajes declarativos realizan procesos internamente por lo que no declaran varia-
+bles, unicamente se declara el problema a resolver pero no como se hara.
+
+-Ejemplos:
+
+Lenguaje imperativo "JAVA":
+
+public static int[][] multiplicar(int a[][], int b[][]){
+	int ac = a.length();
+	int af = a[0].length();
+	int bc = b.length();
+	int bf = b[0].length();	
+	int[][] resultado = new int[af][bc];
+
+	for(int i=0; i<af; i++)
+	for(int j=0; j<bc; j++)
+	for(int k=0; k<bc; k++)
+	resultado[i][j] += a[i][k] * b[k][j];
+
+	return resultado;
+}
+
+
+Lenguaje declarativo "SequenceL":
+
+MatrixMultiply(A(2), B(2))[i, j] :=
+	let
+		k := 1 ... size(B);
+	in
+		sum( A[i, k] * B[k, j];
