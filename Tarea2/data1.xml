@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datos>
+   <registros>
+      <element>
+        [Nombre: Alvaro, Apellido: Gonzalez, Edad:19, Carrera:ING]
+      </element>
+      <element>
+        [Nombre: Jones, Apellido: Martinez, Edad:20, Carrera:DER]
+      </element>
+      <element>
+        [Nombre: Ricardo, Apellido: Ramirez, Edad:25, Carrera:AGR]
+      </element>
+      <element>
+        [Nombre: Maguire, Apellido: Sample, Edad:31, Carrera:NUT]
+      </element>
+   </registros>
+</datos>

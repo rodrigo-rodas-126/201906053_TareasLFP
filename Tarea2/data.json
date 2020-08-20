@@ -1,0 +1,28 @@
+
+  [
+    {
+        "Nombre": "Eduardo",
+        "Apellido": "Gonzales",
+        "Edad": 21,
+        "Carrera": "ING"    
+    },
+    {
+        "Nombre": "Ruben",
+        "Apellido": "Ageles",
+        "Edad": 22,
+        "Carrera": "AGR"
+    },
+    {
+        "Nombre": "Luis",
+        "Apellido": "Joyanes",
+        "Edad": 31,
+        "Carrera": "DER"
+    },
+    {
+        "Nombre": "Camilo",
+        "Apellido": "Perez",
+        "Edad": 25,
+        "Carrera": "NUT"
+    }
+  ]
+
