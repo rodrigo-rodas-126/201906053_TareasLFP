@@ -7,10 +7,7 @@ def readJ():
     registros = json.load(file)
     for registro in registros:
         print(registro)
+        print(type(registro))
 
 readJ()
-
-
-
-
 

@@ -7,5 +7,6 @@ with open('data.csv') as file:
 
     for row in lector:
         print(row)
+        print(type(row))
 
 

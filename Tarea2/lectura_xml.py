@@ -8,8 +8,6 @@ root = tree.getroot()
 for elem in root:
    for subelem in elem:
       print(subelem.text)
+      print(type(subelem))
 
 
-
-#for elem in root:
-#   print(elem)
